@@ -7,7 +7,8 @@ namespace Tyuiu.AlekseevaVA.Sprint1.Task1.V1.Lib
         public double Calculate(double a, double x, double y)
         {
 
-            return x / 3 / y + 6 * a;
+            double result =  x / 3 / y + 6 * a;
+            return Math.Round(result, 2);
         }
     }
 }
